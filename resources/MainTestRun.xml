@@ -18,4 +18,34 @@
         <!--</classes>-->
     <!--</test>-->
 
+    <!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegexTestSuite" verbose="1" >
+    <test name="Main" >
+        <parameter name="input" value="6000"/>
+        <classes>
+            <class name="Tests.testregex" />
+        </classes>
+    </test>
+    <test name="Main1" >
+        <parameter name="input" value="2000"/>
+        <classes>
+            <class name="Tests.testregex" />
+        </classes>
+    </test>
+    <test name="Main2" >
+        <parameter name="input" value="10000"/>
+        <classes>
+            <class name="Tests.testregex" />
+        </classes>
+    </test>
+    <test name="Main3" >
+        <parameter name="input" value="500"/>
+        <classes>
+            <class name="Tests.testregex" />
+        </classes>
+    </test>
+
+</suite>
+    -->
 </suite>
